@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.tozalsh{
+    clear: both;
+}
+.bosh{
+    width: 600px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    height: 450px;
+}
+p{
+    font-size: 14px;
+}
+.rasm{
+    width: 300px;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+}
+.rasm img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.rasm2{
+    float: left;
+    margin-top: 12px; 
+    margin-left: 50px;
+    padding-left: 23px;
+}
+
+.container{
+    width: 300px;
+    float: left;
+    height: 100%;
+    text-align: left;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.container div{
+    width: 90%;
+    margin:auto;
+}
+.perfume{
+    padding-left: 51px;
+    line-height: 5px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 500;
+    color: hsl(228, 12%, 48%);
+}
+.gabrielle,.summa{
+
+    font-family: 'Fraunces', serif;
+    font-size: 700;
+}
+.floral,.tugma{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 300;
+}
+.floral,.perfume,.summa h4{
+
+    color: hsl(228, 12%, 48%);
+}
+.summa, h1,h4{
+    padding-left: 35px;
+
+}
+.floral{
+    padding-left: 48px;
+
+}
+.tugma{
+    text-align: center;
+    background-color: hsl(158, 36%, 37%);
+}
+.tugma *, .tugma{
+    border-radius: 8px!important;
+}
+.tugma ul{
+    list-style-type: none;
+    width: 75%;
+}
+.tugma ul li{
+    width: 100%;
+}
+.tugma ul li a{
+    text-decoration: none;
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+    color: hsl(30, 38%, 92%);
+}
+.gabrielle{
+    color: hsl(212, 21%, 14%);
+    padding-left: auto;
+
+}
+.summa{
+    padding-left: 4%;
+    width: 96%!important;
+}
+.summa h1{
+    float: left;
+    margin-right: 0;
+    color: hsl(158, 36%, 37%);
+}
+.summa h4{
+    float: left;
+    margin-top: 4%;
+    text-decoration: line-through solid 1px hsl(228, 12%, 48%);
+}
+.perfume{
+    margin-top: 50px!important;
+    margin-bottom: 0!important;
+}
+.gabrielle,.floral,.summa,.tugma{
+    margin-top: 25px!important;
+}
+@media screen and (max-width: 800px){
+        .bosh{
+            width: 300px;
+        }
